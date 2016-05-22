@@ -59,9 +59,9 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-## Changes to original data set made by run_analysis.R
+##Changes to original data set made by run_analysis.R
 
-The Create an additional files:
+### Create additional files:
 =========================================
 
 - 'README.md'

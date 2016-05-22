@@ -1,0 +1,99 @@
+Tidy Data Set CodeBook
+=================
+
+Data represents prepared tidy data set prepared from Human Activity Recognition Using Smartphones Dataset. 
+
+Source DataSet and its description can be found at: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+
+The dataset includes the following files:
+=========================================
+
+- 'README.txt'
+
+- 'CodeBook.txt'
+
+- 'tidy_data/tidy_set.csv': Each row represents an observation window with labeled activity and subject. Each row includes mean and standard deviations for each measurement from a source dataset. 
+
+- 'tidy_data/activity_subject_mean.csv': Each row represents measurement average value for each activity of each subject
+
+- 'run_analysis.R': R-script file to prepare tidy datasets from a source data
+
+=========================================
+Features Description
+=========================================
+
+tidy_data/tidy_set.csv
+
+ -  "activity" - Labeled activity. "LAYING","SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS","WALKING_UPSTAIRS"   
+
+ -  "subject" - ID of subject performed an activity.
+
+Mean and Standard Deviations for each measurement from source data set.
+ -  "BodyAcc-mean-X"
+ -  "BodyAcc-mean-Y"
+ -  "BodyAcc-mean-Z"
+ -  "BodyAcc-std-X"
+ -  "BodyAcc-std-Y"
+ -  "BodyAcc-std-Z"
+ -  "GravityAcc-mean-X"
+ -  "GravityAcc-mean-Y"
+ -  "GravityAcc-mean-Z"
+ -  "GravityAcc-std-X"
+ -  "GravityAcc-std-Y"
+ -  "GravityAcc-std-Z"
+ -  "BodyAccJerk-mean-X"
+ -  "BodyAccJerk-mean-Y"
+ -  "BodyAccJerk-mean-Z"
+ -  "BodyAccJerk-std-X"
+ -  "BodyAccJerk-std-Y"
+ -  "BodyAccJerk-std-Z"
+ -  "BodyGyro-mean-X"
+ -  "BodyGyro-mean-Y"
+ -  "BodyGyro-mean-Z"
+ -  "BodyGyro-std-X"
+ -  "BodyGyro-std-Y"
+ -  "BodyGyro-std-Z"
+ -  "BodyGyroJerk-mean-X"
+ -  "BodyGyroJerk-mean-Y"
+ -  "BodyGyroJerk-mean-Z"
+ -  "BodyGyroJerk-std-X"
+ -  "BodyGyroJerk-std-Y"
+ -  "BodyGyroJerk-std-Z"
+ -  "BodyAccMag-mean"
+ -  "BodyAccMag-std"
+ -  "GravityAccMag-mean"
+ -  "GravityAccMag-std"
+ -  "BodyAccJerkMag-mean"
+ -  "BodyAccJerkMag-std"
+ -  "BodyGyroMag-mean"
+ -  "BodyGyroMag-std"
+ -  "BodyGyroJerkMag-mean"
+ -  "BodyGyroJerkMag-std"
+ -  "FurieBodyAcc-mean-X"
+ -  "FurieBodyAcc-mean-Y"
+ -  "FurieBodyAcc-mean-Z"
+ -  "FurieBodyAcc-std-X"
+ -  "FurieBodyAcc-std-Y"
+ -  "FurieBodyAcc-std-Z"
+ -  "FurieBodyAccJerk-mean-X"
+ -  "FurieBodyAccJerk-mean-Y"
+ -  "FurieBodyAccJerk-mean-Z"
+ -  "FurieBodyAccJerk-std-X"
+ -  "FurieBodyAccJerk-std-Y"
+ -  "FurieBodyAccJerk-std-Z"
+ -  "FurieBodyGyro-mean-X"
+ -  "FurieBodyGyro-mean-Y"
+ -  "FurieBodyGyro-mean-Z"
+ -  "FurieBodyGyro-std-X"
+ -  "FurieBodyGyro-std-Y"
+ -  "FurieBodyGyro-std-Z"
+ -  "FurieBodyAccMag-mean"
+ -  "FurieBodyAccMag-std"
+ -  "FurieBodyBodyAccJerkMag-mean"
+ -  "FurieBodyBodyAccJerkMag-std"
+ -  "FurieBodyBodyGyroMag-mean"
+ -  "FurieBodyBodyGyroMag-std"
+ -  "FurieBodyBodyGyroJerkMag-mean"
+ -  "FurieBodyBodyGyroJerkMag-std"

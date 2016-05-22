@@ -22,11 +22,11 @@ Preparation script can be found at 'run_analisys.R' with appropriate comments.
 
 Following preparation process was perormed:
  
- 1) load_data function called for test and train data.
+ 1) load_data function called for Test and Train data sets of source data.
  This function provides:
   
-    - loads source data sets from file using fread function
-    - assign appropriete features names
+    - loads source to data.table from source files using fread function
+    - Red and assign appropriete features names from source features.txt 
     - remove duplicated columns presented in source data.
     - adds subject column with subject ID
     - adds activity_id column for each observation
@@ -38,7 +38,7 @@ Following preparation process was perormed:
   
   4) Replace acitivity numeric column with a descriptive data for each activity
   
-  5) Prepare a special data set with mean values for each activity of each subject
+  5) Prepare a activity_subject_mean data set with measurements mean values for each activity of each subject
   
   6) write prepared data sets into csv files
   
